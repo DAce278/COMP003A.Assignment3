@@ -30,6 +30,15 @@
             }
 
 
+            Console.Write("Do you have a valid ID? (yes/no): ");
+            string idResponse = Console.ReadLine();
+            bool idStatus = (idResponse.ToLower() == "yes");
+
+
+            Console.Write("Have you completed orientation? (yes/no): ");
+            string orientationResponse = Console.ReadLine();
+            bool orientationStatus = (orientationResponse.ToLower() == "yes");
+
 
         }
     }
