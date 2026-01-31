@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("------ Academic Readiness Evaluator ------\n");
+
+            int currentYear = DateTime.Now.Year;
+            Console.WriteLine($"Current Year: {currentYear}");
+
+            Console.Write("Enter your birth year: ");
+            int birthYear = int.Parse( Console.ReadLine() );
+
+
         }
     }
 }
