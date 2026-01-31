@@ -58,11 +58,11 @@
             }
 
 
-            Console.Write("Select a guidance plan:" +
-                        "\n1 - Academic Planning" +
-                        "\n2 - Financial Planning" +
-                        "\n3 - Career Planning" +
-                        "\nEnter choice: ");
+            Console.Write("\nSelect a guidance plan:" +
+                          "\n1 - Academic Planning" +
+                          "\n2 - Financial Planning" +
+                          "\n3 - Career Planning" +
+                          "\nEnter choice: ");
 
             string planChoice = Console.ReadLine();
 
@@ -81,7 +81,7 @@
                     break;
 
                 default:
-                    Console.WriteLine("Invalid response");
+                    Console.WriteLine("Guidance: Invalid response.");
                     break;
             }
         }
